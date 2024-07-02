@@ -1,0 +1,48 @@
+'use strict',
+funtion filtrarYRedondear(nums) {
+    let resultado = [],
+    for (let i = 0, i < nums.length; i++) {
+     if (nums[i] > 10) {
+        resultado.push(nums[i.toFixed(2)]);
+     }
+    }
+    return resultado;
+    }
+
+const nums [13.676767, 3.123432, 5,34543543, 10.3452345];
+const filtrado = filtrarYRedondear(num);
+alert (filtrado); |
+
+
+
+
+n 2
+let clases = [
+    { name: 'metodologia', level: 1 },
+    { name: 'Intercese', level: 1 },
+    { name: 'Tics', level: 1 },
+    { name: 'Base de Datos', level: 1 },
+    { name: 'Matematicas', level: 1 }, 
+    { name: 'Piensa', level: 1 },
+
+    ];
+
+funcion filterLevel(clases, level) {
+    return clases.filter(clases => clases.level === level);
+}
+
+n 3
+function calcaveraje(grades) {
+    if (grades.length === 0) {
+        return 0;
+        }
+        let suma = grades.reduce((acumulador, grade) => acumulador + grade, 0) ;
+        let averagee = suma / grades. length;
+        return Math. floor(averajee);
+        }
+
+        let grades = [95, 90, 98, 92, 68];
+        let fullaveraje = calcaveraje(grades);
+        console.log('final averaje: ${fullaverage}');
+
+
